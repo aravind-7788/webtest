@@ -10,7 +10,8 @@ public class launchchorme {
 	public static void main(String[] args) throws InterruptedException {
 		// TODO Auto-generated method stub
 		
-	System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+	//System.setProperty("webdriver.chrome.driver","C:\\Users\\user\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","\\usr\\bin\\chromium-browser");
     WebDriver driver = new ChromeDriver();
 	driver.get("http://34.134.190.135:8004/index.php");
 	//System.out.println(driver.getTitle());
